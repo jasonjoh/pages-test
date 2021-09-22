@@ -1,3 +1,7 @@
+---
+has_children: true
+---
+
 # Welcome to Kiota
 
 Kiota is an OpenAPI based code generator for creating SDKs for HTTP APIs. The goal is to produce a lightweight, low maintenance, code generator that is fast enough to run as part of the compile time tool-chain but scalable enough to handle the largest APIs.
