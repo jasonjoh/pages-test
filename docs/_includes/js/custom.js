@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+jtd.onReady(function() {
   const theme = localStorage.getItem('theme');
   setTheme(theme);
 });
