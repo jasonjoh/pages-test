@@ -1,2 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 logo: "images/g-raph-circle-large.png"
+aux_links:
+  "Kiota on GitHub":
+    "//github.com/microsoft/kiota"
+  "Toggle theme":
+    ""
