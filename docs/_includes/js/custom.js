@@ -10,7 +10,7 @@ function switchTheme() {
 }
 
 function setTheme(theme) {
-  theme = theme ?? 'light';
+  theme = theme === 'dark' ? 'dark' : 'light';
   jtd.setTheme(theme);
   localStorage.setItem('theme', theme);
 
