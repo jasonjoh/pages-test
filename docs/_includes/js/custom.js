@@ -1,5 +1,7 @@
-const theme = localStorage.getItem('theme');
-setTheme(theme);
+document.addEventListener('DOMContentLoaded', function() {
+  const theme = localStorage.getItem('theme');
+  setTheme(theme);
+});
 
 function switchTheme() {
   const theme = localStorage.getItem('theme');
@@ -8,6 +10,7 @@ function switchTheme() {
 }
 
 function setTheme(theme) {
+  theme = theme ?? 'light';
   jtd.setTheme(theme);
   localStorage.setItem('theme', theme);
 
